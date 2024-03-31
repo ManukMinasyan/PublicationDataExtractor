@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^7.1|^8.0",
+    "php": "^7.1|^8.0|^8.2",
     "graham-campbell/guzzle-factory": "^7.0",
     "nesbot/carbon": "^2.68.1",
     "serkin/volan": "dev-master",
