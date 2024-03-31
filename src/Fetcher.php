@@ -8,7 +8,7 @@ use GuzzleHttp\Promise\EachPromise;
 use Psr\Http\Message\ResponseInterface;
 use PubPeerFoundation\PublicationDataExtractor\Identifiers\Identifier;
 use PubPeerFoundation\PublicationDataExtractor\Resources\Resource;
-use Tightenco\Collect\Support\Arr;
+use Illuminate\Support\Arr;
 
 class Fetcher
 {
