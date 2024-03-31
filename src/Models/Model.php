@@ -3,8 +3,8 @@
 namespace PubPeerFoundation\PublicationDataExtractor\Models;
 
 use Exception;
-use Tightenco\Collect\Support\Arr;
-
+use Illuminate\Support\Arr;
+ 
 class Model
 {
     /**
