@@ -76,6 +76,10 @@ class EutilsEfetch extends Extractor implements ProvidesPublicationData, Provide
     public function extractUpdatesData(): void
     {
         try {
+            if (! is_iterable($this->searchTree->MedlineCitation->CommentsCorrectionsList->CommentsCorrections)) {
+                return;
+            }
+            
             foreach ($this->searchTree->MedlineCitation->CommentsCorrectionsList->CommentsCorrections as $correction) {
                 $this->getUpdateFromCorrection($correction);
             }
