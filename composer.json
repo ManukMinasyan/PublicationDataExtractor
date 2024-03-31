@@ -14,7 +14,7 @@
     "graham-campbell/guzzle-factory": "^7.0",
     "nesbot/carbon": "^2.68.1",
     "serkin/volan": "dev-master",
-    "tightenco/collect": "^5.6",
+    "tightenco/collect": "^9.52",
     "symfony/dom-crawler": "^5.0"
   },
   "require-dev": {
